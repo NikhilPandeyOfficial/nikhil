@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	PortFolio</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Lobster|Merienda|Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel|Jura:600|Montserrat|Poiret+One|Cutive|Montserrat|Rokkitt|Sacramento|Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assests/css/Nik_PortFolio.css">
+</head>
+<body>
+	
+	<!-- Modal of EDUCATION -->
+	<div class="modal fade" id="educationModalCenter" tabindex="-1" role="dialog" aria-labelledby="educationModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="educationModalLongTitle">Education</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+				<div>
+					<!-- <h3>Education</h3> -->
+					<ul>
+						<li>Scored 9.8 C.G.P.A. in 10th class</li>
+						<li>Scored 86.2% in 12th board examination</li>
+						<li>have done schooling from Rajkiya Pratibha Vikas Vidyalaya,Shalimar Bagh ,New Delhi</li>
+						<li>Persuing B.Tech from Indraprastha University</li>
+						<li>
+							<table border="1">
+								<thead>
+									<tr><td>Semester</td><td>Result</td></tr>
+									<!-- <td><tr>Semester</tr><tr>Result</tr></td> -->
+								</thead>
+								<tbody>
+									<tr><td>1st Sem</td><td>75.85%</td></tr>
+									<tr><td>2nd Sem</td><td>75.5%</td></tr>
+									<tr><td>3rd Sem</td><td>Currently Persuing</td></tr>
+								</tbody>
+							</table>
+						</li>
+					</ul>
+				</div>						       
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+	</div>
+
+	<!-- Modal for Skills -->
+	<div class="modal fade" id="skillsModalCenter" tabindex="-1" role="dialog" aria-labelledby="skillsModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="skillsModalLongTitle">SKIILS</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true"> &times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li>HTML, CSS, JavaScript</li>
+						<li>Bootstrap, jQuery</li>
+						<li>Programming Languages: C, Python</li>
+						<li>Some basic knowledge of DataBase.(using SQLite Browser)</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<header class="headr">
+		<div style="margin: 0 10%;">
+			<figure id="PicDiv">
+				<img id="mainPic" src="PicsArt_09-27-11.52.24.jpg">
+			</figure>
+			<h1 id="myName"><span>NIKHIL PANDEY</span></h1>
+			<h3>Front End Web Developer</h3>
+			<p id="Tagline">LET ME TAKE YOU INTO A DEEPER EXPERIENCE, MAKE A MOMENT A LASTING, CONVEYABLE MEMORY. LET ME HELP BUILD YOUR TRIBE.</p>			
+		</div>
+		<button id="butt" type="button" class="btn btn-success shadow" style="padding: 10px 30px"><a class="nav-link" style="color: white" href="#about-me">GET STARTED</a></button>
+	</header>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light" id="navigation" style="margin-top: ;">
+		<div class="container col-xs-12 justify-content-center" >				
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="true">
+			    <span class="navbar-toggler-icon" ></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+				<ul class="navbar-nav" style="font-family: 'Montserrat', sans-serif; text-align: center;">
+					
+					<li class="nav-item"><a class="nav-link" href="#about-me">ABOUT ME</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+					<li class="nav-item"><a class="nav-link" href="#fun-games">FUN</a></li>
+					<li class="nav-item"><a class="nav-link" href="#testimonies">COMMENTS</a></li>
+					
+				</ul>
+			</div>		
+		</div>
+	</nav>
+
+	<div data-spy="scroll" data-offset=0 data-target="#navigation" style="margin-top:">
+		<!-- about me section -->
+		<div id="about-me" style="background-color: white; overflow: hidden;">
+			<div class="aboutMeHeading col-xs-12 ">
+				<h2>ABOUT ME</h2><hr class="d-flex justify-content-center">
+			</div>
+			<div class="row" style="">
+				<div class="col-md-7 col-xs-12" style="background-image: url(https://inspirationfeeeed.files.wordpress.com/2015/01/ma-monogram-by-jonas.png); color: white; padding: 8% 15%; background-position: center;">
+				<p style="font-weight: normal">
+					I am 2nd year Computer Science student persuing B.Tech from Indraprastha University. A creative, hardworking student looking for projects which provides me a vast pool of opportunities to expand my knowledge.<br><br>
+					I am a talented, ambitious and hardworking individual, with broad skills in Front-End Web.I am committed to learning and self-development so that I can consistently achieve better results. I am always energetic and eager to learn new skills..<br><br>
+					I had done several online courses from basics of Ethical Hacking to Python Specialization from prestigious online portals. I enjoy myself to losing completely in the world of computers. Currently, i am persuing basics of data science.
+				</p>
+				
+				</div>
+				<div class="col-md-5 col-xs-12">
+					<img style="height: 100%; width: 100%;margin-left: -15px;" src="aboutMe.jpg">
+				</div>
+			</div>		
+		</div>
+
+
+		<div id="portfolio">
+			<div class="portFolioheading col-xs-12">
+				<h2><u>PORTFOLIO</u></h2>
+			</div>
+			<div class="row" style="padding: 0 8%;">
+				<div class="col-md-6 col-xs-12 educationIcon">
+					<img class="Icon" data-toggle="modal" data-target="#educationModalCenter" aria-hidden="true" style="cursor: pointer;" src="EducationIcon.gif">
+					<h5 data-toggle="modal" data-target="#educationModalCenter" aria-hidden="true">EDUCATION</h5>
+				</div>
+				<div class="col-md-6 col-xs-12 skillsIcon">
+					<img class="Icon" data-target="#skillsModalCenter" data-toggle="modal" aria-hidden="true" style="background-color: black; cursor: pointer;" src="ICON-web-writing.png">
+					<h5 data-target="#skillsModalCenter"  data-toggle="modal" aria-hidden="true">SKILLS</h5>
+				</div>
+			</div>
+		</div>
+
+		
+		
+
+		<div id="testimonies" style=" overflow-x: hidden;">
+		<!-- it is Comment section -->
+			<h3  id = "comment">COMMENTS</h3>
+			<div class="addComment d-flex justify-content-center">
+				<i class="fa fa-plus"></i>
+			</div>
+			<div class="container d-flex justify-content-center">
+				<form class="forming collapse" style="margin-left: ">
+					<div class="form-group">
+						<label for="forName">Name</label>
+						<input type="text" name="forNaming" class="form-control Name" placeholder="Enter Your Name" required>
+						<small class="form-text">We'll never share your details with anyone.</small>
+					</div>
+					<div class="form-group">
+						<label for="forComment">Comment</label>
+						<input type="text" name="forCommenting" class="form-control Comment" placeholder="Comment Here!" required>
+						<button type="button" class="btn btn-primary" style="margin-top:10px;">Submit</button>
+					</div>
+				</form>
+			</div>
+			<ul class="d-flex justify-content-center">
+				<div class="row cardList" style="margin-top: 25px; margin-left: -40px;">
+					<li>
+					<div class="card text-white bg-secondary mb-3" style="font-family: Indie Flower">
+						<div class="card-header">Sunil</div>
+						<div class = "card-body">
+							<!-- <h4 class="card-title"> Name </h4>-->
+							<p class="card-text">hey Nikhil, such a wonderful creation every thing on your page is simply awesome! Nice work dude. </p>
+						</div>
+					</div></li>
+					<li>
+					<div class="card text-white bg-primary mb-3" style="font-family: Pacifico">
+						<div class="card-header">Ananya</div>
+						<div class="card-body">
+							<!--<h4 class="card-title">Name1</h4>-->
+							<p class="card-text">Oh my God!!!! your page is looking amazing...... I have litterally no words to explain how i am feeling right .</p>
+						</div>
+					</div></li>
+					<li>
+					<div class="card text-white bg-danger mb-3" style="font-family: lobster">
+						<div class="card-header">Ankush</div>
+						<div class="card-body">
+							<!--<h4 class="card-title">Shivam</h4>-->
+							<p class="card-text">Bhai gazab lag rha ye toh from every aspect bas thode se animation aur daal deta toh sone pe suhaga ho jata..... vase bhi badiya lag rha h!!!!</p>
+						</div>
+					</div></li>
+				</div>
+				<!-- adding the card for new comments from visiter -->
+			</ul>
+		</div>
+	</div>
+
+
+
+  	<div class="footer d-flex justify-content-center" style="color: white;">
+  		<div class="col-sm-6 col-xs-12" style="text-align: center; font-family: 'Sacramento', cursive; font-weight: bold; letter-spacing: 2px;">
+  			<small>All Rights Reserved <span style="font-family: normal;">&reg;</span></small> <br>
+  			<small><span style="font-family: normal">&copy;</span> 2018 Nikhil</small>
+  		</div>
+  	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="assests/js/Nik_PortFolio.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
