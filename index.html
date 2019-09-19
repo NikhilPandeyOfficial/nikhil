@@ -3,8 +3,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>
-		PortFolio</title>
+	<title>Nikhil Portfolio</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
 		integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -35,10 +34,10 @@
 					<div>
 						<!-- <h3>Education</h3> -->
 						<ul>
-							<li>Scored 9.8 C.G.P.A. in 10th class</li>
-							<li>Scored 86.2% in 12th board examination</li>
-							<li>have done schooling from Rajkiya Pratibha Vikas Vidyalaya,Shalimar Bagh ,New Delhi</li>
 							<li>Persuing B.Tech from Indraprastha University</li>
+							<li>have done schooling from Rajkiya Pratibha Vikas Vidyalaya,Shalimar Bagh ,New Delhi</li>
+							<li>Scored 86.2% in 12th board examination</li>
+							<li>Scored 9.8 C.G.P.A. in 10th class</li>
 							<li>
 								<table border="1">
 									<thead>
@@ -63,12 +62,16 @@
 										</tr>
 										<tr>
 											<td>4th Sem</td>
-											<td>result pending</td>
+											<td>73.8%</td>
 										</tr>
-
+										<tr>
+											<td>5th Sem</td>
+											<td>Pursing</td>
+										</tr>
 									</tbody>
 								</table>
 							</li>
+							<li>Aggregat<span style="color: white">e SGPA: 8.0 (till now)</span></li>
 						</ul>
 					</div>
 				</div>
@@ -92,10 +95,11 @@
 				</div>
 				<div class="modal-body">
 					<ul>
+						<li>Node.js, MongoDB, AWS S3, React.js</li>
 						<li>HTML, CSS, JavaScript</li>
 						<li>Bootstrap, jQuery</li>
-						<li>Programming Languages: C, Python</li>
-						<li>Some basic knowledge of DataBase.(using SQLite Browser)</li>
+						<li>Programming Languages: C, Python, Java, JavaScript</li>
+						<li>SQL (known but not frequently used)</li>
 					</ul>
 				</div>
 				<div class="modal-footer">
@@ -104,6 +108,64 @@
 			</div>
 		</div>
 	</div>
+<!--Modal for Experience-->
+	<div class="modal fade" id="experienceModalCenter" tabindex="-1" role="dialog" aria-labelledby="skillsModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content" style="background-image: none">
+			<div class="modal-header">
+				<h5 class="modal-title" id="skillsModalLongTitle">EXPERIENCE</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+					<span aria-hidden="true"> &times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<ul>
+					<li>
+						<strong>M Media pvt. Ltd</strong>, Pitam Pura, Delhi-110034, India (May 2019 to July 2019)
+					</li>
+					<i>Full Stack Web Developer Intern</i>
+						   <li> <strong>Project 1:</strong>
+							   <ul>
+									<li>• Worked on project from Scratch</li>
+									<li>• Developed all the APIs using according to REST</li>
+									<li>• Used MVC system for entire backend</li>
+									<li>• developed admin dashboard to manage the content of website</li>
+									<li>• Implemented Amazon Web Service (AWS) S3 </li>
+									<li>• Implemented Search system using GeoJson</li>
+									<li>• Used Git for version control</li>
+									<li>• Used Mongo Atlas service for DataBase</li>
+							   </ul>
+						   </li>	 
+						   <a href="http://yupland.com/index" target="_blank">Project link</a>
+							<li>Team Size: 1</li>
+					   
+							<li> <strong>Project 2:</strong>
+									<ul>
+										 <li>• Set-up the base of the project from Scratch and worked on it</li>
+										 <li>• Developed and set-up the admin dashboard to manage the website’s data</li>
+										 <li>• Implemented AWS S3 to store the static data of the website</li>
+										 <li>• Used Git for version control</li>
+										 <li>• Developed all the APIs according to REST</li>
+										 <li>• Implemented complex DB structure in project</li>
+										 <li>• Used Git for version control</li>
+										 <li>• Used Mongo Atlas service for Database</li>
+									</ul>
+								</li>	 
+								<a href="https://onlinecourses.skilldosti.com/" target="_blank">Project link</a>
+								 <li>Team Size: 3</li>
+
+						   Stack Used: Node.js, HTML, CSS, JavaScript, jQuery, Ejs, Express.js, AWS S3, MongoDB Atlas, Git, GitHub
+					   
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 	<header class="headr">
 		<div style="margin: 0 10%;">
@@ -129,10 +191,10 @@
 				<ul class="navbar-nav" style="font-family: 'Montserrat', sans-serif; text-align: center;">
 
 					<li class="nav-item"><a class="nav-link" href="#about-me">ABOUT ME</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about-me">ABOUT ME</a></li>
 					<li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-					<li class="nav-item"><a class="nav-link" href="#fun-games">FUN</a></li>
+					<li class="nav-item"><a class="nav-link" href="#experience" data-target="#experienceModalCenter" data-toggle="modal">EXPERIENCE</a></li>
 					<li class="nav-item"><a class="nav-link" href="#testimonies">COMMENTS</a></li>
-
 				</ul>
 			</div>
 		</div>
@@ -215,7 +277,7 @@
 				<div class="row cardList" style="margin-top: 25px; margin-left: -40px;">
 					<li>
 						<div class="card text-white bg-secondary mb-3" style="font-family: Indie Flower">
-							<div class="card-header">Sunil</div>
+							<div class="card-header">Shivam</div>
 							<div class="card-body">
 								<!-- <h4 class="card-title"> Name </h4>-->
 								<p class="card-text">hey Nikhil, such a wonderful creation every thing on your page is
@@ -252,10 +314,11 @@
 
 
 	<div class="footer d-flex justify-content-center" style="color: white;">
+			
 		<div class="col-sm-6 col-xs-12"
 			style="text-align: center; font-family: 'Sacramento', cursive; font-weight: bold; letter-spacing: 2px;">
 			<small>All Rights Reserved <span style="font-family: normal;">&reg;</span></small> <br>
-			<small><span style="font-family: normal">&copy;</span> 2018 Nikhil</small>
+			<small><span style="font-family: normal">&copy;</span> 2019 Nikhil</small>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
